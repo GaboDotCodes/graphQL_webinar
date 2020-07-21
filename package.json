@@ -1,0 +1,31 @@
+{
+  "name": "graphql_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js --exec 'clear && node index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaboDotCodes/graphQL_webinar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaboDotCodes/graphQL_webinar/issues"
+  },
+  "homepage": "https://github.com/GaboDotCodes/graphQL_webinar#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.14",
+    "lodash": "^4.17.19"
+  }
+}
